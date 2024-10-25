@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #e0f7e0; /* Fondo verde claro */
     color: #333;
     margin: 0;
     padding: 20px;
 }
 
 header {
-    background: #0077cc;
+    background: #388e3c; /* Verde oscuro para el encabezado */
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -22,7 +22,7 @@ main {
 }
 
 section {
-    background: #fff;
+    background: #fff; /* Se mantiene blanco para contraste */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -39,10 +39,11 @@ li {
 
 a {
     text-decoration: none;
-    color: #0077cc;
+    color: #4caf50; /* Verde para enlaces */
     font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #66bb6a; /* Verde más claro al pasar el mouse */
 }
